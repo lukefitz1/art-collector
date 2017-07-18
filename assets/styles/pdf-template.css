@@ -1,0 +1,171 @@
+body {
+    margin-top: 5px;
+}
+.container {
+    width: 795px;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 10px;*/
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+    overflow: auto;
+}
+
+p {
+    margin: 0px;
+}
+
+.bg-gray {
+    background-color: #EBEBEB;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.light-blue {
+    color: #96A9BF;
+}
+
+.darker-blue {
+    color: #4A6E98;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.banner {
+    padding: 10px 10px 0px 10px;
+}
+
+header {
+    padding: 0px 15px 20px 15px;
+}
+
+.top {
+    height: 25px;
+    padding: 10px;
+}
+
+.top .left {
+    width: 33%;
+    float: left;
+}
+
+.top .middle {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.top .right {
+    width: 33%;
+    float: left;
+    text-align: right;
+}
+
+.main {
+    height: 60px;
+    border-top: 3px solid #777777;
+    border-bottom: 1px solid #777777;
+    display: block;
+}
+
+.main .title {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    width: 80%;
+}
+
+.collection-title {
+    font-size: 32px;
+    
+}
+
+.main .logo {
+    float: right;
+    height: 60px;
+    position: relative;
+    width: 20%;
+}
+
+.logo-img {
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    margin: auto 0px auto 0px;
+    position: absolute;
+    top: 0px;  
+    bottom: 0px;  
+    left: 70px;  
+    right: 0px;
+}
+
+.subheading {
+    padding: 15px;
+    border-bottom: 1px solid #777777;
+    font-size: 24px;
+}
+
+.column-left {
+    width: 51.5%;
+    display: block;
+    float: left;
+    margin-right: 13px;
+}
+
+.column-right {
+    width: 44.5%;
+    display: block;
+    float: right;
+    margin-right: 15px;
+}
+
+.label-block {
+    clear: both;
+    font-size: 20px;
+    padding: 5px 22px 5px 10px
+}
+
+.label-block .value {
+    display: inline;
+}
+
+.label-heading {
+    padding: 11px 10px 11px 0px;
+    border-top: 2px dotted #4A6E98;
+    border-bottom: 2px dotted #4A6E98;
+}
+
+.big-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hide {
+    display: none;
+}
+
+.divider {
+    height: 30px;
+}
+
+.block-value {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.bio {
+    line-height: 23px;
+}
+
+.label-block img {
+    float: right;
+    margin-top: 22px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
