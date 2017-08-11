@@ -31,11 +31,6 @@ module.exports.routes = {
   * `assets` directory)                                                      *
   *                                                                          *
   ***************************************************************************/
-
-  // default
-  /*'/': {
-    view: 'homepage'
-  }*/
   
   '/': 'LoginController.index',
   '/artists': 'ArtistsController.index',
@@ -44,7 +39,19 @@ module.exports.routes = {
   '/customers/getCustomer/:id': 'CustomersController.getCustomer',
   'POST /artists/addArtist': 'ArtistsController.addArtist',
   'POST /customers/addCustomer': 'CustomersController.addCustomer',
-  'POST /art/addArt': 'ArtController.addArt'
+  'POST /art/addArt': 'ArtController.addArt',
+
+  'get /login': {
+       view: 'login'
+  },
+
+  'post /login': 'AuthController.login',
+
+  '/logout': 'AuthController.logout',
+
+  'get /signup': {
+    view: 'signup'
+  }
 
   /***************************************************************************
   *                                                                          *

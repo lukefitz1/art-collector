@@ -11,7 +11,7 @@ module.exports = {
 	},
 	index: function(request, response) {
 		return response.view('login', {
-			currentDate: (new Date()).toString()
+			// currentDate: (new Date()).toString()
 		});
 	}
 };

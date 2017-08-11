@@ -26,7 +26,23 @@ module.exports.policies = {
   *                                                                          *
   ***************************************************************************/
 
-  // '*': true,
+  '*': true,
+
+  'PostController': {
+    '*': 'isAuthenticated'
+  },
+
+  'ArtController': {
+    '*': 'isAuthenticated'
+  },
+
+  'ArtistsController': {
+    '*': 'isAuthenticated'
+  },
+
+  'CustomersController': {
+    '*': 'isAuthenticated'
+  },
 
   /***************************************************************************
   *                                                                          *
